@@ -29,13 +29,13 @@ function convertirTemperatura() {
   
   if (celsius < 15) {
     claseTemperatura = "fria";
-    icono = "";
+    icono = "❄️";
   } else if (celsius >= 15 && celsius <= 30) {
     claseTemperatura = "media";
-    icono = "";
+    icono = "🌤️";
   } else {
     claseTemperatura = "caliente";
-    icono = "";
+    icono = "🔥";
   }
 
   li.classList.add(claseTemperatura);
